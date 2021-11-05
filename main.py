@@ -20,7 +20,9 @@ def isEven(num):
      return True
   else:
     return False
-
+def digits(num):
+  x = [int(a) for a in str(num)]
+  print(x)
 
 for i in range(50):
-  print(fib(i), isPrime(i), isEven(i))
+  print(fib(i), isPrime(i), isEven(i), digits(i))
