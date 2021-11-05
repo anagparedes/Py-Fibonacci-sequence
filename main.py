@@ -1,3 +1,4 @@
+import math
 
 def fib(n):
     if n > 1:
@@ -22,8 +23,7 @@ def isEven(num):
     return False
 
 def digits(num):
-  x = [int(a) for a in str(num)]
-  print(x)
+ return [int(a) for a in str(num)]
 
 for i in range(50):
   print(fib(i), isPrime(i), isEven(i), digits(i)) 
